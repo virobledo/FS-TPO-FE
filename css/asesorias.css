@@ -1,0 +1,16 @@
+#asesorias {
+	background: url(../img/bg/asesorias.jpg) no-repeat fixed 0% 0% #040203;
+	background-size: cover;
+}
+#asesorias .head-lead {
+	text-align: right;
+}
+
+@media (max-width: 767px) {
+	#asesorias {
+		background: url(../img/bg/asesorias.jpg) no-repeat fixed 100% 0% #040203;
+	}
+	#asesorias .head-lead {
+		text-align: center;
+	}
+}
